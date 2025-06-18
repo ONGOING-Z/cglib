@@ -16,6 +16,7 @@
 package net.sf.cglib.proxy;
 
 /**
+ * <p>延迟加载目标对象</p>
  * Lazy-loading {@link Enhancer} callback.
  */
 public interface LazyLoader extends Callback {

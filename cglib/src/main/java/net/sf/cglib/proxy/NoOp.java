@@ -16,6 +16,7 @@
 package net.sf.cglib.proxy;
 
 /**
+ * <p>直接调用基类的方法，没有其他操作</p>
  * Methods using this {@link Enhancer} callback will delegate directly to the
  * default (super) implementation in the base class.
  */

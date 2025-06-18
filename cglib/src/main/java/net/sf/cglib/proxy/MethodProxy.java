@@ -212,9 +212,10 @@ public class MethodProxy {
     }
 
     /**
+     * <p>触发原始方法（被代理的方法）</p>
      * Invoke the original (super) method on the specified object.
      * @param obj the enhanced object, must be the object passed as the first
-     * argument to the MethodInterceptor
+     * argument to the MethodInterceptor 代理对象
      * @param args the arguments passed to the intercepted method; you may substitute a different
      * argument array as long as the types are compatible
      * @see MethodInterceptor#intercept

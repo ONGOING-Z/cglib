@@ -16,6 +16,7 @@
 package net.sf.cglib.proxy;
 
 /**
+ * <p>是个标记接口，空接口</p>
  * All callback interfaces used by {@link Enhancer} extend this interface.
  * @see MethodInterceptor
  * @see NoOp

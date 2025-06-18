@@ -16,6 +16,7 @@
 package net.sf.cglib.proxy;
 
 /**
+ * <p>todo 和 LazyLoader 的作用一样，为什么会是一样的？</p>
  * Dispatching {@link Enhancer} callback. This is identical to the
  * {@link LazyLoader} interface but needs to be separate so that <code>Enhancer</code>
  * knows which type of code to generate.

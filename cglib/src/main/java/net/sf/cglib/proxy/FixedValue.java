@@ -16,6 +16,7 @@
 package net.sf.cglib.proxy;
 
 /**
+ * <p>强制返回固定值</p>
  * {@link Enhancer} callback that simply returns the value to return
  * from the proxied method. No information about what method
  * is being called is available to the callback, and the type of
