@@ -18,6 +18,7 @@ package net.sf.cglib.proxy;
 /**
  * <p> CallBack最关键的实现 </p>
  * General-purpose {@link Enhancer} callback which provides for "around advice".
+ * <p>通用的 Enhancer 回调机制，用于提供环绕通知功能。</p>
  * @author Juozas Baliuka <a href="mailto:baliuka@mwm.lt">baliuka@mwm.lt</a>
  * @version $Id: MethodInterceptor.java,v 1.8 2004/06/24 21:15:20 herbyderby Exp $
  */
