@@ -17,13 +17,27 @@ package net.sf.cglib.core;
 
 import org.objectweb.asm.Type;
 
+// 看起来就是一个很简单的domain类
+// 描述符映射
+/**
+ * void	   V
+ * boolean Z
+ * byte	   B
+ * char	   C
+ * short   S
+ * int     I
+ * long    J
+ * float   F
+ * double  D
+ */
+
 /**
  * A representation of a method signature, containing the method name,
  * return type, and parameter types.
  */
 public class Signature {
-    private String name;
-    private String desc;
+    private String name; // 方法名
+    private String desc; // 描述符
 
     public Signature(String name, String desc) {
         // TODO: better error checking

@@ -70,6 +70,7 @@ public class MethodProxy {
                 {
                     CreateInfo ci = createInfo;
 
+                    // 生成两个辅助类
                     FastClassInfo fci = new FastClassInfo();
                     fci.f1 = helper(ci, ci.c1);
                     fci.f2 = helper(ci, ci.c2);
@@ -125,6 +126,7 @@ public class MethodProxy {
     }
 
     /**
+     * <p>返回目标方法签名</p>
      * Return the signature of the proxied method.
      */
     public Signature getSignature() {
@@ -188,6 +190,7 @@ public class MethodProxy {
     }
 
     /**
+     * <p>触发代理对象？</p>
      * Invoke the original method, on a different object of the same type.
      * @param obj the compatible object; recursion will result if you use the object passed as the first
      * argument to the MethodInterceptor (usually not what you want)
@@ -212,7 +215,7 @@ public class MethodProxy {
     }
 
     /**
-     * <p>触发原始方法（被代理的方法）</p>
+     * <p>触发原始方法（被代理的方法，即目标方法），会绕过代理对象。</p>
      * Invoke the original (super) method on the specified object.
      * @param obj the enhanced object, must be the object passed as the first
      * argument to the MethodInterceptor 代理对象
