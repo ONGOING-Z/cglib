@@ -194,6 +194,7 @@ public class Enhancer extends AbstractClassGenerator
     }
 
     /**
+     * <p>设置需要实现的接口。</p>
      * Set the interfaces to implement. The <code>Factory</code> interface will
      * always be implemented regardless of what is specified here.
      * @param interfaces array of interfaces to implement, or null
